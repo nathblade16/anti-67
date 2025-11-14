@@ -16,7 +16,8 @@ export default function SanitizerPage() {
             "$": "s",
             "j": "i",
             "><": "x",
-            "+": "t"
+            "+": "t",
+            "_": ""
         };
         // get rid of leetspeak
         for (const num in leet) {
