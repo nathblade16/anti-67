@@ -34,7 +34,10 @@ export default function SanitizerPage() {
             .replaceAll("sixseventy", "six eighty")
             .replaceAll("sixxseven", "six eight")
             .replaceAll("sixsevven", "six eight")
-            ;
+            .replaceAll("sixty7", "sixty8")
+            .replaceAll("6seven", "6eight")
+            .replaceAll("6seventy", "6eighty")
+            .replaceAll("six7", "six8");
     };
     const handleSanitize = () => {
         const sanitized = sanitizeInput(input);
