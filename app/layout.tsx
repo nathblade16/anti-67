@@ -31,8 +31,8 @@ export default function RootLayout({
       >
         <div className="fixed left-2 top-2 bottom-2 w-52 rounded-md bg-gray-200 p-5 z-[1000] dark:bg-gray-800">
           <Link href="/">
-            <Image src="icon.svg" width={50} height={50} alt="anti 67" className="block dark:hidden" />
-            <Image src="icon-dark.svg" width={50} height={50} alt="anti 67" className="hidden dark:block" />
+            <Image src="/icon.svg" width={50} height={50} alt="anti 67" className="block dark:hidden" />
+            <Image src="/icon-dark.svg" width={50} height={50} alt="anti 67" className="hidden dark:block" />
           </Link>
           <Link href="/anti-67-clicker" className="mt-4 block hover:underline">
             Anti-67 Clicker
